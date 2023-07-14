@@ -1,0 +1,7 @@
+#!/bin/bash
+#
+#PBS -l ncpus=1,mem=30gb,nmics=0,cput=200:0:0 -l walltime=200:0:0
+cd $PBS_O_WORKDIR                  # change to our (current) directory
+
+module load python
+python /home/cjshake/Rebound/calcSpinX.py $FOO

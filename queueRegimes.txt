@@ -1,0 +1,10 @@
+#for i in {1..100};
+
+
+#for i in 132;		#169 is the one in Fig1
+for i in 17 44 132 139 152 157 169 182 245 252; 
+do 
+   echo ${i}; 
+   python3 calcRegimes.py ${i}
+   python3 calcPeriod.py ${i}
+done 

@@ -1,0 +1,9 @@
+#!/bin/bash
+for i in 17 44 132 139 152 157 169 182 245 252;
+
+do
+
+    qsub -v FOO="$i" queueSpin
+#    qsub queueRun $i
+
+done
