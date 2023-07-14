@@ -11,8 +11,11 @@ by Cody J. Shakespeare and Jason H. Steffen
 To reproduce results, run in this order:
 
 >BIGqueueSA
+
 >BIGqueueSpin
+
 >queueCompress
+
 >queueRegimes
 
 Regime results will be printed to screen and saved. Run "plotNAME.py" files for the published figures. Figures are included as .pdf files for reference.
